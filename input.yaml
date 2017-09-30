@@ -1,0 +1,40 @@
+icons:
+    # Create a new mode by copy/pasting and renaming
+    EZ:
+        # Filename appended to selection-mods
+        name: 'easy'
+        # Text on image
+        text: 'EZ'
+        # Text color. (R, G, B, Transparency)
+        text_color: !!python/tuple [0, 0, 0, 255]
+        border_color: !!python/tuple [0, 0, 0, 255]
+        text_shadow_color: !!python/tuple [255, 255, 255, 255]
+        bg_color: !!python/tuple [211, 211, 211, 150]
+    HD:
+        name: 'hidden'
+        text: 'HD'
+        text_color: !!python/tuple [0, 0, 0, 255]
+        border_color: !!python/tuple [0, 0, 0, 255]
+        text_shadow_color: !!python/tuple [255, 255, 255, 255]
+        bg_color: !!python/tuple [211, 211, 211, 150]
+    NC:
+        name: 'nightcore'
+        text: 'NC'
+        text_color: !!python/tuple [0, 0, 0, 255]
+        border_color: !!python/tuple [0, 0, 0, 255]
+        text_shadow_color: !!python/tuple [255, 255, 255, 255]
+        bg_color: !!python/tuple [211, 211, 211, 150]
+    DT:
+        name: 'doubletime'
+        text: 'DT'
+        text_color: !!python/tuple [0, 0, 0, 255]
+        border_color: !!python/tuple [0, 0, 0, 255]
+        text_shadow_color: !!python/tuple [255, 255, 255, 255]
+        bg_color: !!python/tuple [211, 211, 211, 150]
+
+# Font in /fonts/
+font: 'Eurostile.ttf'
+# Border thickness.
+border_thickness: 2
+# If your text appears to be off center, adjust with this.
+center_adj: 2
